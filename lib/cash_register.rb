@@ -27,7 +27,7 @@ class CashRegister
     end
   end
 
-  def items(items)
+  def items(array)
     @shopping_cart
   end
 
