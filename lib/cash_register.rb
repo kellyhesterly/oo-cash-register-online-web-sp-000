@@ -27,7 +27,7 @@ class CashRegister
     end
   end
 
-  def items(items)
+  def items
       @shopping_cart.fill(items)
       binding.pry
   end
