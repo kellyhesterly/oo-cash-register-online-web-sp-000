@@ -1,7 +1,7 @@
 require 'pry'
 
 class CashRegister
-  attr_accessor :total, :discount, :shopping_cart, :item
+  attr_accessor :total, :discount, :shopping_cart
 
   def initialize(discount = 0)
     @total = 0
@@ -28,8 +28,8 @@ class CashRegister
   end
 
   def items
-    # @shopping_cart
-    binding.pry
+    shopping_cart
+    # binding.pry
   end
 
 
