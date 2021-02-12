@@ -26,10 +26,9 @@ class CashRegister
     end
   end
 
-def void_last_transaction(item, price, quantity = 1)
-  add_item(item, price, quantity)
+def void_last_transaction
   last_transaction = @items[-1]
-  binding.pry
+  # binding.pry
 end
 
 
