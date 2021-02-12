@@ -1,7 +1,7 @@
 require 'pry'
 
 class CashRegister
-  attr_accessor :total, :discount, :shopping_cart, :items, :last_transaction
+  attr_accessor :total, :discount, :shopping_cart, :items, :last_transaction, :price
 
   def initialize(discount = 0)
     @total = 0
@@ -27,7 +27,7 @@ class CashRegister
   end
 
 def void_last_transaction
-  last_transaction = @items[-1]
+  last_transaction = @items[price-1]
   
   binding.pry
 end
