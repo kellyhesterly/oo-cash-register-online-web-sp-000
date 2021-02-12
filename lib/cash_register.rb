@@ -13,7 +13,7 @@ class CashRegister
     @shopping_cart = []
 
     if quantity >= 1
-      @complete_shopping_cart = @shopping_cart << item
+     @shopping_cart << item
     end
   end
 
