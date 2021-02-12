@@ -27,7 +27,7 @@ class CashRegister
   end
 
 def void_last_transaction
-  @items.unshift
+  @items.unshift[-1]
   binding.pry
 end
 
