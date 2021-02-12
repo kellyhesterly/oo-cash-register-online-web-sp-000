@@ -11,10 +11,9 @@ class CashRegister
 
   def add_item(item, price, quantity = 1)
     @total += price * quantity
-    @shopping_cart = []
     # binding.pry
     if quantity >= 1
-     @shopping_cart << item
+     @items << item
     end
   end
 
