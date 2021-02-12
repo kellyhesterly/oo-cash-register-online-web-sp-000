@@ -29,7 +29,7 @@ class CashRegister
 
   def items
     @shopping_cart
-    binding.pru
+    binding.pry
   end
 
 
