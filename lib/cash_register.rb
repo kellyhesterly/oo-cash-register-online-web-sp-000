@@ -28,7 +28,7 @@ class CashRegister
   end
 
   def items
-      return @shopping_cart
+      @shopping_cart.all
   end
 
 
