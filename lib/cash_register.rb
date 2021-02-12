@@ -28,7 +28,7 @@ class CashRegister
   end
 
   def items
-      @shopping_cart.all
+      @shopping_cart
       binding.pry
   end
 
