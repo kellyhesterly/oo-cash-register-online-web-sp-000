@@ -27,8 +27,8 @@ class CashRegister
     end
   end
 
-  def items
-    shopping_cart
+  def items(item, price, quantity = 1)
+    add_item(item, price, quantity = 1)
     # binding.pry
   end
 
